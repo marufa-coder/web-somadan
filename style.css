@@ -1,0 +1,400 @@
+* {
+    margin: 0px; 
+    padding: 0px;
+} 
+.logo {
+    width: 120px; 
+    height: 120; 
+
+}   
+li{
+    list-style:none; 
+    margin: 20px;
+
+} 
+a{
+    text-decoration: none;
+    font-size: 30px; 
+}
+ .mega-menu{
+    display:none; 
+    position: absolute; 
+    background-color: rgb(238, 238, 243); 
+    width:1700px; 
+    left:0; 
+    gap:100px; 
+    padding:40px; 
+    justify-content: space-between;
+ } 
+  
+.dropdown-main:hover .mega-menu {
+    display: flex;
+} 
+.mega-menu-container h3 {
+    font-size:40px;
+color: aqua;
+    border-bottom:2px solid blueviolet;
+}  
+.mega-menu-list{
+    margin-top:10px; 
+    font-size:14px; 
+    margin-bottom:20px;
+}    
+.mega-menu-list li:hover a{
+    border-bottom:2px solid rgb(113, 217, 8);
+} 
+/* .desgin-colour {color: aqua; 
+} */
+
+header>ul{
+    display: flex; 
+    font-size:20px; 
+    color: rgb(0, 255, 98);
+}  
+
+
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+} 
+
+
+.bg-img{
+    background: url(./1347727.png); 
+    width: 100%; 
+    height: 600px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    background-position: bottom;
+}  
+.rose { 
+    width: 600px;
+    font-size: 30px; 
+    color: aliceblue;  
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    flex-direction: column;  
+    font-family: "Matemasie", sans-serif;
+ 
+} 
+header { 
+    background-color: white; 
+} 
+.top-ber{  
+    
+    color: rgb(210, 211, 211); 
+    padding: 20px;
+    background-color: rgb(13, 13, 14); 
+    justify-content: space-between;  
+    align-items: center;
+    display: flex; 
+} 
+.fa-facebook-official{
+    font-size:60px;
+}    
+
+.boxsize {
+    width:240px; 
+    height:180px; 
+    background:slateblue;
+    border-radius:20px; 
+    border:1px; 
+    box-shadow:0 10px 4px -5px; 
+    display:flex; 
+    flex-direction:column; 
+    justify-content:center; 
+    align-items:center; 
+    font:size18px;
+    color: aqua; 
+    font-weight:600; 
+    padding:10px; 
+    margin-top:20px; 
+    gap: 35px;
+}  
+.under {
+    display: flex; 
+    justify-content: center; 
+    gap: 25px;
+}  
+.boxsize:hover{
+    background-color: aquamarine;
+} 
+.under-area { 
+    height: 600px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: aquamarine; 
+}  
+.under-area p {
+    width: 600px;
+    font-size: 30px; 
+    color: rgb(3, 80, 147);  
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    flex-direction: column;  
+    font-family: "Matemasie", sans-serif; 
+    
+ 
+} 
+.under-area img {
+    height: 200px;
+}
+
+
+
+.last-under {
+     display: flex; 
+    justify-content: center; 
+    border: 2px solid wheat;
+}  
+.last-under { 
+    width:100%; 
+    display: flex; 
+    justify-content: center; 
+    gap: 50px; 
+    margin-bottom: 20px; 
+    flex-wrap: wrap;
+} 
+.boxsize2 {
+    display: flex; 
+    height: 350px; 
+    width: 500px; 
+    justify-content: center; 
+    border: 5px solid rgb(14, 15, 15); 
+    background-color:darkorchid;  
+    color:black; 
+    box-shadow: 0 10px 4px -5px; 
+    border-radius:30px;
+
+} 
+.boxsize2 i{
+    font-size:80px; 
+    margin:25px;
+} 
+.boxsize2 h5 {
+    font-size:50px;
+} 
+.boxsize2:hover {
+    background-color: rgb(5, 126, 126);
+} 
+.boxsize2 p {
+    font-size:40px;
+}  
+.slider-section { 
+  padding: 60px;  
+ background-image:url(./1347727.png);  
+ background-size:cover;  
+ background-attachment: fixed;  
+} 
+            
+
+.slider-section img{
+    height:500px;
+    width: 500px; 
+    margin: 0 auto;    
+}  
+.slider-section h1{
+    font-size:35px; 
+    font-weight:90px; 
+    margin-bottom:50px; 
+    text-align: center; 
+    color: #e5e0e0;
+}
+
+
+
+.slick-prev::before,
+.slick-next::before {
+    color: darkmagenta;
+    font-size: 2.5rem;
+}
+
+.slick-prev,
+.slick-next {
+    width: 2.5rem;
+    height: 2.5rem;
+    z-index: 2;
+}
+
+.slick-list {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.slick-prev {
+    left:20%;
+}
+
+.slick-next {
+    right: 20%;
+}  
+.dots{
+    color: black;
+}
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 20px;
+    position: absolute;
+    top: -80px;
+    left: 1px;
+    width: 35px;
+    height: 30px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: rgb(255, 16, 16);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: rgb(15, 46, 246);
+}   
+
+.fa-bars{
+    font-size:20px; 
+    color:blueviolet; 
+    display: none;
+}
+
+
+
+@media screen and (max-width:600px)
+{
+    header>ul {
+        display: none;
+        /* font-size: 20px;
+        color: rgb(0, 255, 98); */
+    }   
+    .under {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        flex-wrap: wrap;
+    }  
+    .under-area p {
+        width: 300px;
+        font-size: 20px;
+        color: rgb(3, 80, 147);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: "Matemasie", sans-serif;
+    } 
+    .rose {
+        width: 300px;
+        font-size: 15px;
+        color: aliceblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: "Matemasie", sans-serif;
+    } 
+
+    .slider-section h1 {
+        font-size: 15px;
+        font-weight: 90px;
+        margin-bottom: 50px;
+        text-align: center;
+        color: #e5e0e0;
+    } 
+
+    .slider-section {
+        padding: 60px;
+        background-image: url(./1347727.png);
+        background-size: cover;
+        background-attachment: fixed;
+        width: 450px;
+    } 
+    .slider-section img {
+        height: 201px;
+        width: 200px;
+        margin: 0 auto;
+    } 
+    .slick-prev::before, .slick-next::before {
+        color: darkmagenta;
+        font-size: 1.5rem;
+    } 
+    .slick-dots li button:before {
+        font-family: 'slick';
+        font-size: 10px;
+        line-height: 20px;
+        position: absolute;
+        top: -80px;
+        left: 1px;
+        width: 35px;
+        height: 30px;
+        content: '•';
+        text-align: center;
+        opacity: .25;
+        color: rgb(255, 16, 16);
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    } 
+    .boxsize2 p {
+        font-size: 15px;
+    } 
+    .boxsize2 i {
+        font-size: 30px;
+        margin: 15px;
+    } 
+    .boxsize2 h5 {
+        font-size: 20px;
+    } 
+    .fa-facebook-official {
+        font-size: 20px;
+    } 
+    .logo {
+        width: 80px;
+        height: 100;
+    } 
+    .boxsize2 {
+        display: flex;
+        height: 150px;
+        width: 200px;
+        justify-content: center;
+        border: 5px solid rgb(14, 15, 15);
+        background-color: darkorchid;
+        color: black;
+        box-shadow: 0 10px 4px -5px;
+        border-radius: 30px;
+    } 
+    .boxsize {
+        width: 120px;
+        height: 100px;
+        background: slateblue;
+        border-radius: 20px;
+        border: 1px;
+        box-shadow: 0 10px 4px -5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font: size18px;
+        color: aqua;
+        font-weight: 600;
+        padding: 10px;
+        margin-top: 20px;
+        gap: 35px;
+    }
+    .fa-bars{
+        display: inline;
+    }
+
+
+
+
+} 
+
